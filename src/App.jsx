@@ -5,7 +5,7 @@ import Home from './pages/Home';
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename="/portfolio">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

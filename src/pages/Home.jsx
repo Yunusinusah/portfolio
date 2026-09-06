@@ -6,6 +6,7 @@ import Project from '../components/Project';
 import Experience from '../components/Experience';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import PortfolioAssistant from '../components/PortfolioAssistant';
 import { useTheme } from '../hooks/useTheme';
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
         <Contact />
       </main>
       <Footer />
+      <PortfolioAssistant />
     </div>
   );
 };
