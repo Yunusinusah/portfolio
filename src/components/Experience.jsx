@@ -98,7 +98,7 @@ const Experience = () => {
             }`}
           >
             Experience &{' '}
-            <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 bg-clip-text text-transparent">
               Education
             </span>
           </h2>
@@ -119,8 +119,8 @@ const Experience = () => {
           <div
             className={`absolute left-5 sm:left-8 top-0 bottom-0 w-px ${
               isDark
-                ? 'bg-gradient-to-b from-blue-500 via-purple-500 to-transparent'
-                : 'bg-gradient-to-b from-blue-400 via-purple-400 to-transparent'
+                ? 'bg-gradient-to-b from-blue-500 via-cyan-400 to-teal-400'
+                : 'bg-gradient-to-b from-blue-500 via-cyan-400 to-teal-400'
             }`}
           />
 
@@ -232,8 +232,8 @@ const Experience = () => {
                     <div
                       className={`absolute bottom-0 left-6 right-6 h-px opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
                         item.type === 'achievement'
-                          ? 'bg-gradient-to-r from-transparent via-purple-500 to-transparent'
-                          : 'bg-gradient-to-r from-transparent via-blue-500 to-transparent'
+                          ? 'bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400'
+                          : 'bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400'
                       }`}
                     />
 
@@ -258,7 +258,7 @@ const Experience = () => {
         <div
           className={`mt-16 rounded-2xl border p-6 sm:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6 transition-colors duration-300 ${
             isDark
-              ? 'bg-gradient-to-r from-blue-500/5 to-purple-500/5 border-slate-800'
+              ? 'bg-gradient-to-r from-blue-500/5 via-cyan-400/5 to-teal-400/5 border-slate-800'
               : 'bg-white border-slate-200'
           }`}
         >

@@ -104,7 +104,7 @@ const Navbar = () => {
             >
               <Code2 size={20} />
 
-              <span className="absolute -right-1 -top-1 w-2.5 h-2.5 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 border-2 border-white dark:border-[#070b14]" />
+              <span className="absolute -right-1 -top-1 w-2.5 h-2.5 rounded-full bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 border-2 border-white dark:border-[#070b14]" />
             </div>
 
             <div className="hidden sm:block text-left">
@@ -127,7 +127,7 @@ const Navbar = () => {
 
             {/* Mobile initials */}
             <span
-              className={`sm:hidden text-lg font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent`}
+              className={`sm:hidden text-lg font-bold bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 bg-clip-text text-transparent`}
             >
               IM
             </span>
@@ -156,7 +156,7 @@ const Navbar = () => {
 
                   {/* Active indicator */}
                   <span
-                    className={`absolute left-1/2 -bottom-0.5 -translate-x-1/2 h-0.5 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 transition-all duration-300 ${
+                    className={`absolute left-1/2 -bottom-0.5 -translate-x-1/2 h-0.5 rounded-full bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 transition-all duration-300 ${
                       isActive ? 'w-5 opacity-100' : 'w-0 opacity-0'
                     }`}
                   />
@@ -187,7 +187,7 @@ const Navbar = () => {
             {/* Contact button - desktop */}
             <button
               onClick={() => scrollToSection('contact')}
-              className="hidden md:flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/20 hover:-translate-y-0.5"
+              className="hidden md:flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 transition-all duration-300 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/20 hover:-translate-y-0.5"
             >
               Let's Talk
               <ArrowUpRight size={16} />
@@ -245,7 +245,7 @@ const Navbar = () => {
                     <span>{item.name}</span>
 
                     {isActive && (
-                      <span className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-blue-500 to-purple-600" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400" />
                     )}
                   </button>
                 );
@@ -255,7 +255,7 @@ const Navbar = () => {
             {/* Mobile contact CTA */}
             <button
               onClick={() => scrollToSection('contact')}
-              className="w-full mt-3 flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-blue-500 to-purple-600"
+              className="w-full mt-3 flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400"
             >
               Let's Talk
               <ArrowUpRight size={16} />

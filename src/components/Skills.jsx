@@ -197,7 +197,7 @@ const Skills = () => {
             }`}
           >
             Tools I use to
-            <span className="block mt-2 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+            <span className="block mt-2 bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 bg-clip-text text-transparent">
               build great software.
             </span>
           </h2>
@@ -337,8 +337,8 @@ const Skills = () => {
           <div
             className={`rounded-3xl border p-7 sm:p-8 ${
               isDark
-                ? 'bg-gradient-to-br from-blue-500/10 to-purple-500/5 border-white/10'
-                : 'bg-gradient-to-br from-blue-50 to-purple-50 border-slate-200'
+                ? 'bg-gradient-to-br from-blue-500/10 via-cyan-400/5 to-teal-400/5 border-white/10'
+                : 'bg-gradient-to-br from-blue-50 via-cyan-50 to-teal-50 border-slate-200'
             }`}
           >
 

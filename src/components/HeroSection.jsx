@@ -113,17 +113,17 @@ const HeroSection = () => {
             </div>
 
             {/* Heading */}
-            <h1
+            <h3
               className={`text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-extrabold tracking-tight leading-[0.95] mb-7 ${
                 isDark ? 'text-white' : 'text-slate-950'
               }`}
             >
               Hi, I'm
 
-              <span className="block mt-3 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 bg-clip-text text-transparent">
+              <span className="block mt-3 bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 bg-clip-text text-transparent">
                 Inusah Mustapha.
               </span>
-            </h1>
+            </h3>
 
             {/* Typing title */}
             <div
@@ -164,7 +164,7 @@ const HeroSection = () => {
 
               <button
                 onClick={() => scrollToSection('projects')}
-                className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 shadow-lg shadow-blue-500/20 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 hover:-translate-y-1"
+                className="group inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-white bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 shadow-lg shadow-blue-500/20 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 hover:-translate-y-1"
               >
                 View My Work
 

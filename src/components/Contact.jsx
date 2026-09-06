@@ -123,7 +123,7 @@ const Contact = () => {
             }`}
           >
             Let's build something{' '}
-            <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 bg-clip-text text-transparent">
               great together.
             </span>
           </h2>
@@ -429,7 +429,7 @@ const Contact = () => {
                 {/* Submit */}
                 <button
                   type="submit"
-                  className="group w-full py-4 rounded-xl font-semibold text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/20 hover:-translate-y-0.5"
+                  className="group w-full py-4 rounded-xl font-semibold text-white bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/20 hover:-translate-y-0.5"
                 >
                   <Send
                     size={19}

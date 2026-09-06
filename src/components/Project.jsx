@@ -122,7 +122,7 @@ const Project = () => {
               }`}
             >
               Projects I've
-              <span className="block mt-2 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+              <span className="block mt-2 bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 bg-clip-text text-transparent">
                 built & shipped.
               </span>
             </h2>
@@ -292,7 +292,7 @@ const Project = () => {
 
                     <a
                       href={project.link}
-                      className="group/button inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all duration-300"
+                      className="group/button inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm text-white bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 transition-all duration-300"
                     >
                       <ExternalLink size={16} />
 
@@ -325,7 +325,7 @@ const Project = () => {
               </div>
 
               {/* Bottom accent */}
-              <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-blue-500 via-purple-500 to-transparent scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
+              <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
 
             </div>
           ))}

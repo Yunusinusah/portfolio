@@ -109,7 +109,7 @@ const PortfolioAssistant = () => {
           role="dialog"
           aria-label="Ask Inusah's portfolio assistant"
         >
-          <div className="flex items-center justify-between bg-linear-to-r from-blue-600 to-indigo-600 px-4 py-4 text-white">
+          <div className="flex items-center justify-between bg-linear-to-r from-blue-500 via-cyan-400 to-teal-400 px-4 py-4 text-white">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/15">
                 <Bot size={21} />

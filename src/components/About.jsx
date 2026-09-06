@@ -68,7 +68,7 @@ const About = () => {
             }`}
           >
             Turning ideas into
-            <span className="block mt-2 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+            <span className="block mt-2 bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400 bg-clip-text text-transparent">
               meaningful digital experiences.
             </span>
           </h2>
@@ -203,8 +203,8 @@ const About = () => {
             <div
               className={`relative overflow-hidden rounded-3xl p-7 sm:p-8 border ${
                 isDark
-                  ? 'bg-gradient-to-br from-blue-500/10 via-white/[0.03] to-purple-500/10 border-white/10'
-                  : 'bg-gradient-to-br from-blue-50 via-white to-purple-50 border-slate-200'
+                  ? 'bg-gradient-to-br from-blue-500/10 via-cyan-400/5 to-teal-400/10 border-white/10'
+                  : 'bg-gradient-to-br from-blue-50 via-cyan-50 to-teal-50 border-slate-200'
               }`}
             >
 
